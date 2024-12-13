@@ -1,4 +1,4 @@
-package com.example.repte2local.view
+package com.example.entregarepte2.view
 
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.layout.*
@@ -10,7 +10,7 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.unit.dp
-import com.example.repte2local.R
+import com.example.entregarepte2.R
 
 @Composable
 fun LaunchScreen(onLaunchComplete: () -> Unit) {

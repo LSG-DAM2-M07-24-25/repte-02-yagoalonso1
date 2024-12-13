@@ -1,21 +1,6 @@
-package com.example.entregarepte2.viewmodel
+package com.example.entregarepte2.model
 
-import androidx.lifecycle.ViewModel
-import kotlinx.coroutines.flow.MutableStateFlow
-import kotlinx.coroutines.flow.StateFlow
-
-class LaunchViewModel : ViewModel() {
-    private val _selectedImage = MutableStateFlow<Int?>(null)
-    val selectedImage: StateFlow<Int?> = _selectedImage
-
-    private val _userName = MutableStateFlow("")
-    val userName: StateFlow<String> = _userName
-
-    fun selectImage(imageResId: Int) {
-        _selectedImage.value = imageResId
-    }
-
-    fun setUserName(name: String) {
-        _userName.value = name
-    }
-}
+data class LaunchModel(
+    val selectedImage: Int? = null,
+    val personatgee: String = ""
+)
