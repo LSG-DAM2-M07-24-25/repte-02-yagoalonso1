@@ -10,6 +10,7 @@ import androidx.compose.material3.Scaffold
 import androidx.compose.runtime.*
 import androidx.compose.ui.Modifier
 import com.example.entregarepte2.view.NomScreen
+import com.example.entregarepte2.viewmodel.LaunchViewModel
 import com.example.entregarepte2.view.*
 
 class MainActivity : ComponentActivity() {
@@ -24,7 +25,7 @@ class MainActivity : ComponentActivity() {
 @Composable
 fun App() {
     var currentScreen by remember { mutableStateOf("launch") }
-    val viewModel = remember { launchmodelview() }
+    val viewModel = remember { LaunchViewModel()}
 
     Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
         Box(modifier = Modifier.padding(innerPadding)) {

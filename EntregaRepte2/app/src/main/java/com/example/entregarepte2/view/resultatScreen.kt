@@ -31,7 +31,7 @@ fun ResultatScreen(
         selectedImage?.let {
             Image(
                 painter = painterResource(id = it),
-                contentDescription = "Selected Image",
+                contentDescription = "",
                 modifier = Modifier.size(200.dp)
             )
         }
