@@ -47,7 +47,7 @@ fun NomScreen(
             onClick = { onNameEntered(name) },
             enabled = name.isNotEmpty(),
             colors = ButtonDefaults.buttonColors(
-                containerColor = Color.Gray,
+                containerColor = Color.White,
                 contentColor = Color.Black
             ),
         ) {
