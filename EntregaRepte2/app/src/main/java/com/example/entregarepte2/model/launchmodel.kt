@@ -1,4 +1,6 @@
-package com.example.entregarepte2.model
+package com.example.entregarepte.model
 
-class launchmodel {
-}
+data class LaunchModel(
+    val selectedImage: Int? = null,
+    val userName: String = ""
+)
