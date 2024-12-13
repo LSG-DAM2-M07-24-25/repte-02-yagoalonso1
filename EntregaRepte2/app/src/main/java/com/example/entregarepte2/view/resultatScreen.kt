@@ -1,5 +1,5 @@
 package com.example.entregarepte2.view
 
-class resultatScreen {
-
+class resultatScreen{
+3
 }
