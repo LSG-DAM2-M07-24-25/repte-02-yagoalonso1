@@ -1,4 +1,4 @@
-package com.example.entregarepte2.viewmodel
+package com.example.repte2local.viewmodel
 
 import androidx.lifecycle.ViewModel
 import kotlinx.coroutines.flow.MutableStateFlow
